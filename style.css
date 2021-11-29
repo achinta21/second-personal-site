@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --yellow:#f9ca24;
+    --yellow:#caab44;
 }
 
 *{
@@ -43,7 +43,7 @@ body{
 }
 
 section{
-    min-height:70vh;
+    min-height:65vh;
     padding:1rem;
 }
 
@@ -346,7 +346,7 @@ header .navbar ul li a:hover{
 
 .contact .row form .box{
     padding:1.5rem;
-    /* margin:1rem 0; */
+    margin:1rem 0;
     background:#3333;
     color:#fff;
     text-transform: none;
