@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --yellow:#caab44;
+    --yellow:#c7be3d;
 }
 
 *{
@@ -16,7 +16,7 @@
 
 *::selection{
     background:var(--yellow);
-    color:#333;
+    color:rgb(51, 51, 51);
 }
 
 html{
@@ -29,7 +29,7 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    background:#222;
+    background:rgb(34, 34, 34);
 }
 
 html::-webkit-scrollbar-thumb{
@@ -37,9 +37,14 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:#111;
+  background-image: linear-gradient(225deg, #2B86C5 0%, #784BA0 50%, #2B86C5 100%);
+    
+
     overflow-x: hidden;
     padding-left: 35rem;
+}
+body{
+    position: relative;
 }
 
 section{
@@ -48,7 +53,7 @@ section{
 }
 
 .btn{
-    padding:.7rem 3rem;
+    padding:.7rem 2rem;
     background:#333;
     color:#fff;
     cursor: pointer;
@@ -85,7 +90,7 @@ header{
     z-index: 1000;
     height:100%;
     width:35rem;
-    background:#1a1a1a;
+    background: rgba(99, 94, 94, 0.568);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -319,6 +324,9 @@ header .navbar ul li a:hover{
 
 .project .box-container .box:hover img{
     transform: scale(1.2);
+}
+.btns{
+    color: rgb(197, 13, 13);
 }
 .row{
     display: flex;
