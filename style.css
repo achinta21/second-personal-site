@@ -452,6 +452,9 @@ header .navbar ul li a:hover{
     .heading{
         margin:0 3rem;
     }
+    .navbar{
+        display: block;
+    }
 
     .about .row .counter .box{
         width: 100%;
@@ -464,9 +467,12 @@ header .navbar ul li a:hover{
     .project .box-container .box{
         width:100%;
     }
-
-    .contact .row form{
+    
+    .contact .row{
         margin:3rem 0;
+    }
+    .row{
+       display: block; 
     }
 
  }
